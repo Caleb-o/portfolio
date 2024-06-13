@@ -36,20 +36,26 @@ __webpack_require__.r(__webpack_exports__);
 const file = "src/App.svelte";
 
 function add_css(target) {
-	(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_styles)(target, "svelte-1tky8bj", "main.svelte-1tky8bj{text-align:center;padding:1em;max-width:240px;margin:0 auto}h1.svelte-1tky8bj{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}@media(min-width: 640px){main.svelte-1tky8bj{max-width:none}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwLnN2ZWx0ZSIsInNvdXJjZXMiOlsiQXBwLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8bWFpbj5cblx0PGgxPkNhbGViIE90dG8tSGF5ZXM8L2gxPlxuPC9tYWluPlxuXG48c3R5bGU+XG5cdG1haW4ge1xuXHRcdHRleHQtYWxpZ246IGNlbnRlcjtcblx0XHRwYWRkaW5nOiAxZW07XG5cdFx0bWF4LXdpZHRoOiAyNDBweDtcblx0XHRtYXJnaW46IDAgYXV0bztcblx0fVxuXG5cdGgxIHtcblx0XHRjb2xvcjogI2ZmM2UwMDtcblx0XHR0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuXHRcdGZvbnQtc2l6ZTogNGVtO1xuXHRcdGZvbnQtd2VpZ2h0OiAxMDA7XG5cdH1cblxuXHRAbWVkaWEgKG1pbi13aWR0aDogNjQwcHgpIHtcblx0XHRtYWluIHtcblx0XHRcdG1heC13aWR0aDogbm9uZTtcblx0XHR9XG5cdH1cbjwvc3R5bGU+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtDLG1CQUFLLENBQ0osVUFBVSxDQUFFLE1BQU0sQ0FDbEIsT0FBTyxDQUFFLEdBQUcsQ0FDWixTQUFTLENBQUUsS0FBSyxDQUNoQixNQUFNLENBQUUsQ0FBQyxDQUFDLElBQ1gsQ0FFQSxpQkFBRyxDQUNGLEtBQUssQ0FBRSxPQUFPLENBQ2QsY0FBYyxDQUFFLFNBQVMsQ0FDekIsU0FBUyxDQUFFLEdBQUcsQ0FDZCxXQUFXLENBQUUsR0FDZCxDQUVBLE1BQU8sWUFBWSxLQUFLLENBQUUsQ0FDekIsbUJBQUssQ0FDSixTQUFTLENBQUUsSUFDWixDQUNEIn0= */");
+	(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_styles)(target, "svelte-1tky8bj", "main.svelte-1tky8bj{text-align:center;padding:1em;max-width:240px;margin:0 auto}h1.svelte-1tky8bj{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}@media(min-width: 640px){main.svelte-1tky8bj{max-width:none}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwLnN2ZWx0ZSIsInNvdXJjZXMiOlsiQXBwLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8bWFpbj5cblx0PGgxPkNhbGViIE90dG8tSGF5ZXM8L2gxPlxuICA8cD5CYWNrZW5kIEJvaTwvcD5cbjwvbWFpbj5cblxuPHN0eWxlPlxuXHRtYWluIHtcblx0XHR0ZXh0LWFsaWduOiBjZW50ZXI7XG5cdFx0cGFkZGluZzogMWVtO1xuXHRcdG1heC13aWR0aDogMjQwcHg7XG5cdFx0bWFyZ2luOiAwIGF1dG87XG5cdH1cblxuXHRoMSB7XG5cdFx0Y29sb3I6ICNmZjNlMDA7XG5cdFx0dGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcblx0XHRmb250LXNpemU6IDRlbTtcblx0XHRmb250LXdlaWdodDogMTAwO1xuXHR9XG5cblx0QG1lZGlhIChtaW4td2lkdGg6IDY0MHB4KSB7XG5cdFx0bWFpbiB7XG5cdFx0XHRtYXgtd2lkdGg6IG5vbmU7XG5cdFx0fVxuXHR9XG48L3N0eWxlPiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFNQyxtQkFBSyxDQUNKLFVBQVUsQ0FBRSxNQUFNLENBQ2xCLE9BQU8sQ0FBRSxHQUFHLENBQ1osU0FBUyxDQUFFLEtBQUssQ0FDaEIsTUFBTSxDQUFFLENBQUMsQ0FBQyxJQUNYLENBRUEsaUJBQUcsQ0FDRixLQUFLLENBQUUsT0FBTyxDQUNkLGNBQWMsQ0FBRSxTQUFTLENBQ3pCLFNBQVMsQ0FBRSxHQUFHLENBQ2QsV0FBVyxDQUFFLEdBQ2QsQ0FFQSxNQUFPLFlBQVksS0FBSyxDQUFFLENBQ3pCLG1CQUFLLENBQ0osU0FBUyxDQUFFLElBQ1osQ0FDRCJ9 */");
 }
 
 function create_fragment(ctx) {
 	let main;
 	let h1;
+	let t1;
+	let p;
 
 	const block = {
 		c: function create() {
 			main = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("main");
 			h1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("h1");
 			h1.textContent = "Caleb Otto-Hayes";
+			t1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+			p = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("p");
+			p.textContent = "Backend Boi";
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(h1, "class", "svelte-1tky8bj");
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(h1, file, 1, 1, 8);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(p, file, 2, 2, 36);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(main, "class", "svelte-1tky8bj");
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(main, file, 0, 0, 0);
 		},
@@ -59,6 +65,8 @@ function create_fragment(ctx) {
 		m: function mount(target, anchor) {
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert_dev)(target, main, anchor);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(main, h1);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(main, t1);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(main, p);
 		},
 		p: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
 		i: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
