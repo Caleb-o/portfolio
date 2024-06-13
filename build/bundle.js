@@ -36,41 +36,22 @@ __webpack_require__.r(__webpack_exports__);
 const file = "src/App.svelte";
 
 function add_css(target) {
-	(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_styles)(target, "svelte-1tky8bj", "main.svelte-1tky8bj{text-align:center;padding:1em;max-width:240px;margin:0 auto}h1.svelte-1tky8bj{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}@media(min-width: 640px){main.svelte-1tky8bj{max-width:none}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwLnN2ZWx0ZSIsInNvdXJjZXMiOlsiQXBwLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8c2NyaXB0PlxuXHRleHBvcnQgbGV0IG5hbWU7XG48L3NjcmlwdD5cblxuPG1haW4+XG5cdDxoMT5IZWxsbyB7bmFtZX0hPC9oMT5cblx0PHA+VmlzaXQgdGhlIDxhIGhyZWY9XCJodHRwczovL3N2ZWx0ZS5kZXYvdHV0b3JpYWxcIj5TdmVsdGUgdHV0b3JpYWw8L2E+IHRvIGxlYXJuIGhvdyB0byBidWlsZCBTdmVsdGUgYXBwcy48L3A+XG48L21haW4+XG5cbjxzdHlsZT5cblx0bWFpbiB7XG5cdFx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHRcdHBhZGRpbmc6IDFlbTtcblx0XHRtYXgtd2lkdGg6IDI0MHB4O1xuXHRcdG1hcmdpbjogMCBhdXRvO1xuXHR9XG5cblx0aDEge1xuXHRcdGNvbG9yOiAjZmYzZTAwO1xuXHRcdHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XG5cdFx0Zm9udC1zaXplOiA0ZW07XG5cdFx0Zm9udC13ZWlnaHQ6IDEwMDtcblx0fVxuXG5cdEBtZWRpYSAobWluLXdpZHRoOiA2NDBweCkge1xuXHRcdG1haW4ge1xuXHRcdFx0bWF4LXdpZHRoOiBub25lO1xuXHRcdH1cblx0fVxuPC9zdHlsZT4iXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBVUMsbUJBQUssQ0FDSixVQUFVLENBQUUsTUFBTSxDQUNsQixPQUFPLENBQUUsR0FBRyxDQUNaLFNBQVMsQ0FBRSxLQUFLLENBQ2hCLE1BQU0sQ0FBRSxDQUFDLENBQUMsSUFDWCxDQUVBLGlCQUFHLENBQ0YsS0FBSyxDQUFFLE9BQU8sQ0FDZCxjQUFjLENBQUUsU0FBUyxDQUN6QixTQUFTLENBQUUsR0FBRyxDQUNkLFdBQVcsQ0FBRSxHQUNkLENBRUEsTUFBTyxZQUFZLEtBQUssQ0FBRSxDQUN6QixtQkFBSyxDQUNKLFNBQVMsQ0FBRSxJQUNaLENBQ0QifQ== */");
+	(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_styles)(target, "svelte-1tky8bj", "main.svelte-1tky8bj{text-align:center;padding:1em;max-width:240px;margin:0 auto}h1.svelte-1tky8bj{color:#ff3e00;text-transform:uppercase;font-size:4em;font-weight:100}@media(min-width: 640px){main.svelte-1tky8bj{max-width:none}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiQXBwLnN2ZWx0ZSIsInNvdXJjZXMiOlsiQXBwLnN2ZWx0ZSJdLCJzb3VyY2VzQ29udGVudCI6WyI8bWFpbj5cblx0PGgxPkNhbGViIE90dG8tSGF5ZXM8L2gxPlxuPC9tYWluPlxuXG48c3R5bGU+XG5cdG1haW4ge1xuXHRcdHRleHQtYWxpZ246IGNlbnRlcjtcblx0XHRwYWRkaW5nOiAxZW07XG5cdFx0bWF4LXdpZHRoOiAyNDBweDtcblx0XHRtYXJnaW46IDAgYXV0bztcblx0fVxuXG5cdGgxIHtcblx0XHRjb2xvcjogI2ZmM2UwMDtcblx0XHR0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlO1xuXHRcdGZvbnQtc2l6ZTogNGVtO1xuXHRcdGZvbnQtd2VpZ2h0OiAxMDA7XG5cdH1cblxuXHRAbWVkaWEgKG1pbi13aWR0aDogNjQwcHgpIHtcblx0XHRtYWluIHtcblx0XHRcdG1heC13aWR0aDogbm9uZTtcblx0XHR9XG5cdH1cbjwvc3R5bGU+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUtDLG1CQUFLLENBQ0osVUFBVSxDQUFFLE1BQU0sQ0FDbEIsT0FBTyxDQUFFLEdBQUcsQ0FDWixTQUFTLENBQUUsS0FBSyxDQUNoQixNQUFNLENBQUUsQ0FBQyxDQUFDLElBQ1gsQ0FFQSxpQkFBRyxDQUNGLEtBQUssQ0FBRSxPQUFPLENBQ2QsY0FBYyxDQUFFLFNBQVMsQ0FDekIsU0FBUyxDQUFFLEdBQUcsQ0FDZCxXQUFXLENBQUUsR0FDZCxDQUVBLE1BQU8sWUFBWSxLQUFLLENBQUUsQ0FDekIsbUJBQUssQ0FDSixTQUFTLENBQUUsSUFDWixDQUNEIn0= */");
 }
 
 function create_fragment(ctx) {
 	let main;
 	let h1;
-	let t0;
-	let t1;
-	let t2;
-	let t3;
-	let p;
-	let t4;
-	let a;
-	let t6;
 
 	const block = {
 		c: function create() {
 			main = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("main");
 			h1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("h1");
-			t0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("Hello ");
-			t1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(/*name*/ ctx[0]);
-			t2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("!");
-			t3 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
-			p = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("p");
-			t4 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)("Visit the ");
-			a = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
-			a.textContent = "Svelte tutorial";
-			t6 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.text)(" to learn how to build Svelte apps.");
+			h1.textContent = "Caleb Otto-Hayes";
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(h1, "class", "svelte-1tky8bj");
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(h1, file, 5, 1, 46);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(a, "href", "https://svelte.dev/tutorial");
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(a, file, 6, 14, 83);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(p, file, 6, 1, 70);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(h1, file, 1, 1, 8);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(main, "class", "svelte-1tky8bj");
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(main, file, 4, 0, 38);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(main, file, 0, 0, 0);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -78,18 +59,8 @@ function create_fragment(ctx) {
 		m: function mount(target, anchor) {
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert_dev)(target, main, anchor);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(main, h1);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(h1, t0);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(h1, t1);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(h1, t2);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(main, t3);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(main, p);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(p, t4);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(p, a);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(p, t6);
 		},
-		p: function update(ctx, [dirty]) {
-			if (dirty & /*name*/ 1) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.set_data_dev)(t1, /*name*/ ctx[0]);
-		},
+		p: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
 		i: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
 		o: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
 		d: function destroy(detaching) {
@@ -110,44 +81,22 @@ function create_fragment(ctx) {
 	return block;
 }
 
-function instance($$self, $$props, $$invalidate) {
+function instance($$self, $$props) {
 	let { $$slots: slots = {}, $$scope } = $$props;
 	(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.validate_slots)('App', slots, []);
-	let { name } = $$props;
-
-	$$self.$$.on_mount.push(function () {
-		if (name === undefined && !('name' in $$props || $$self.$$.bound[$$self.$$.props['name']])) {
-			console.warn("<App> was created without expected prop 'name'");
-		}
-	});
-
-	const writable_props = ['name'];
+	const writable_props = [];
 
 	Object.keys($$props).forEach(key => {
 		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<App> was created with unknown prop '${key}'`);
 	});
 
-	$$self.$$set = $$props => {
-		if ('name' in $$props) $$invalidate(0, name = $$props.name);
-	};
-
-	$$self.$capture_state = () => ({ name });
-
-	$$self.$inject_state = $$props => {
-		if ('name' in $$props) $$invalidate(0, name = $$props.name);
-	};
-
-	if ($$props && "$$inject" in $$props) {
-		$$self.$inject_state($$props.$$inject);
-	}
-
-	return [name];
+	return [];
 }
 
 class App extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__.SvelteComponentDev {
 	constructor(options) {
 		super(options);
-		(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.init)(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__.safe_not_equal, { name: 0 }, add_css);
+		(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.init)(this, options, instance, create_fragment, svelte_internal__WEBPACK_IMPORTED_MODULE_0__.safe_not_equal, {}, add_css);
 
 		(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.dispatch_dev)("SvelteRegisterComponent", {
 			component: this,
@@ -155,14 +104,6 @@ class App extends svelte_internal__WEBPACK_IMPORTED_MODULE_0__.SvelteComponentDe
 			options,
 			id: create_fragment.name
 		});
-	}
-
-	get name() {
-		throw new Error("<App>: Props cannot be read directly from the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
-	}
-
-	set name(value) {
-		throw new Error("<App>: Props cannot be set directly on the component instance unless compiling with 'accessors: true' or '<svelte:options accessors/>'");
 	}
 }
 
@@ -6521,9 +6462,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const app = new _App_svelte__WEBPACK_IMPORTED_MODULE_1__["default"]({
   target: document.body,
-  props: {
-    name: 'world'
-  }
 });
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);
